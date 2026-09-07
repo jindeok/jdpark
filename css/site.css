@@ -135,6 +135,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .publication-title { margin: 0 0 8px; font-size: 1.08rem; font-weight: 600; letter-spacing: -.01em; line-height: 1.5; }
 .publication-authors { margin: 0; color: var(--ink-soft); font-size: .88rem; }
 .publication-authors strong { color: var(--ink); font-weight: 600; }
+.publication-authors .author-role {
+  padding: .12em .35em; border-radius: 3px; color: #264b70; background: #e9f0f7;
+  font-weight: 700; -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+.publication-authors .author-role--corresponding { color: #215e4b; background: #e8f3ee; }
 .publication-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 10px; }
 .text-link { color: var(--accent); font-size: .82rem; font-weight: 500; }
 
